@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 
-const page = () => {
+const Page = () => {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     title: "",
@@ -111,4 +111,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
